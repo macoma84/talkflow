@@ -1,6 +1,6 @@
 export const createFormDataWithFile = async (input: string, sessionId: string, file?: File) => {
   const formData = new FormData();
-  formData.append("chatInput", input);
+  formData.append("text", input);
   formData.append("sessionId", sessionId);
 
   if (file) {

@@ -29,7 +29,7 @@ jobs:
         with:
           context: .
           push: true
-          tags: jimmartinquis/n8n-chatui:latest, jimmartinquis/n8n-chatui:${{ github.sha }}
+          tags: macoma84/talkflow:latest, macoma84/talkflow:${{ github.sha }}
 
       - name: Clean up old images
         run: docker system prune -af

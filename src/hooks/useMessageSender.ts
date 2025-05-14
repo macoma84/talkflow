@@ -79,7 +79,7 @@ export const useMessageSender = (
           method: "POST",
           headers,
           body: JSON.stringify({
-            chatInput: input,
+            text: input,
             sessionId: sessionId,
             ...(fileData && {
               data: fileData.data,

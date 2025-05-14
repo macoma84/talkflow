@@ -72,7 +72,7 @@ docker run -d -p 8009:80 \
   -e VITE_WELCOME_MESSAGE="Your welcome message" \
   -e VITE_SITE_TITLE="Your Site Title" \
   -e VITE_ASSISTANT_NAME="Your Assistant Name" \
-  jimmartinquis/n8n-chatui:latest
+  macoma84/talkflow:latest
 ```
 
 2. **Using Docker Compose**:
